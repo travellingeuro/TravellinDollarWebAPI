@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30420.98
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravellinDollarWebAPI", "TravellinDollarWebAPI.csproj", "{65BAB8C2-21CA-412F-8D05-C8F7B769549E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65BAB8C2-21CA-412F-8D05-C8F7B769549E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65BAB8C2-21CA-412F-8D05-C8F7B769549E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65BAB8C2-21CA-412F-8D05-C8F7B769549E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65BAB8C2-21CA-412F-8D05-C8F7B769549E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C400F36D-D8B1-4090-8F75-A43AE90EFA82}
+	EndGlobalSection
+EndGlobal
