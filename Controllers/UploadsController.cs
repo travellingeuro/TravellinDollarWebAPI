@@ -15,7 +15,7 @@ namespace TravellinDollarWebAPI.Controllers
 
         public UploadsController()
         {
-            string connectionString = "server=127.0.0.1;port=3306;user=root;password=Gustavo98;database=tdwebapi;sslmode=preferred";
+            string connectionString = "server=travellingeurodb.mysql.database.azure.com;port=3306;user=travellingeuro@travellingeurodb;password=Gustavo98;database=tdwebapi;sslmode=preferred";
             dbContext = DbContextFactory.Create(connectionString);
         }
 
