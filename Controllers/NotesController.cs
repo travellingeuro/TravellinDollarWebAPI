@@ -86,6 +86,7 @@ namespace TravellinDollarWebAPI.Controllers
                         e.Comments,
                         e.UploadDate,
                         e.NotesId,
+                        e.Name,
                         e.Notes.SerialNumber,
                         e.Notes.Value,
                         e.Users.Email,
