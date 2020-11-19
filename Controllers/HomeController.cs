@@ -10,8 +10,20 @@ namespace TravellinDollarWebAPI.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
+            ViewBag.Title = "TravellingDollar";
 
+            return View();
+        }
+
+        public ActionResult Privacy()
+        {
+            ViewBag.Title = "TravellingDollar - Privacy Policy";
+            return View();
+        }
+
+        public ActionResult About()
+        {
+            ViewBag.Title = "TravellingDollar - About";
             return View();
         }
     }

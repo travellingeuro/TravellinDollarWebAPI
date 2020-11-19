@@ -1,0 +1,42 @@
+﻿[
+  {
+    "outputFile": "lib/startbootstrap-landing-page/scss/_call-to-action.css",
+    "inputFile": "lib/startbootstrap-landing-page/scss/_call-to-action.scss"
+  },
+  {
+    "outputFile": "lib/startbootstrap-landing-page/scss/_footer.css",
+    "inputFile": "lib/startbootstrap-landing-page/scss/_footer.scss"
+  },
+  {
+    "outputFile": "lib/startbootstrap-landing-page/scss/_global.css",
+    "inputFile": "lib/startbootstrap-landing-page/scss/_global.scss"
+  },
+  {
+    "outputFile": "lib/startbootstrap-landing-page/scss/_showcase.css",
+    "inputFile": "lib/startbootstrap-landing-page/scss/_showcase.scss"
+  },
+  {
+    "outputFile": "lib/startbootstrap-landing-page/scss/_variables.css",
+    "inputFile": "lib/startbootstrap-landing-page/scss/_variables.scss"
+  },
+  {
+    "outputFile": "lib/startbootstrap-landing-page/scss/landing-page.css",
+    "inputFile": "lib/startbootstrap-landing-page/scss/landing-page.scss"
+  },
+  {
+    "outputFile": "lib/startbootstrap-landing-page/scss/_testimonials.css",
+    "inputFile": "lib/startbootstrap-landing-page/scss/_testimonials.scss"
+  },
+  {
+    "outputFile": "lib/startbootstrap-landing-page/scss/_mixins.css",
+    "inputFile": "lib/startbootstrap-landing-page/scss/_mixins.scss"
+  },
+  {
+    "outputFile": "lib/startbootstrap-landing-page/scss/_masthead.css",
+    "inputFile": "lib/startbootstrap-landing-page/scss/_masthead.scss"
+  },
+  {
+    "outputFile": "lib/startbootstrap-landing-page/scss/_icons.css",
+    "inputFile": "lib/startbootstrap-landing-page/scss/_icons.scss"
+  }
+]

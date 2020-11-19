@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "defaultProvider": "jsdelivr",
+  "libraries": [
+    {
+      "library": "startbootstrap-landing-page@5.0.9",
+      "destination": "lib/startbootstrap-landing-page/"
+    }
+  ]
+}

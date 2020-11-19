@@ -17,11 +17,15 @@ namespace TravellinDollarWebAPI
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js"));
+                      "~/Scripts/bootstrap.js",
+                      "~/lib/startbootstrap-landing-page/vendor/bootstrap/js/bootstrap.bundle.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/lib/startbootstrap-landing-page/css/landing-page.css",
+                      "~/lib/startbootstrap-landing-page/vendor/bootstrap/css/bootstrap.css",
+                      "~/lib/startbootstrap-landing-page/vendor/fontawesome-free/css/all.css",
+                      "~/lib/startbootstrap-landing-page/vendor/simple-line-icons/css/simple-line-icons.css"));
+
         }
     }
 }
