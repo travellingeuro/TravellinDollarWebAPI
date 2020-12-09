@@ -6,8 +6,11 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/fonts")
+    @Styles.Render("~/Content/fontsawe")
     @Scripts.Render("~/bundles/modernizr")
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
 
 
 </head>
@@ -16,48 +19,55 @@
     <div class="navbar navbar-light bg-light static-top">
         <div class="container">
             <div class="navbar-header">
-                <img alt="logo" src="~/Templates/tdtransparent.png"  height="100"/>
+                <img alt="logo" src="~/Templates/tdtransparent.png" height="100" />
             </div>
         </div>
     </div>
 
 
-   
-        @RenderBody()
-        <hr />
 
-        <!-- Footer -->
-        <footer class="footer bg-light">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-                        <h3 class="text-primary"><a href="~/Home/Index">TravellingDollar.com</a></h3>
-                        <p class="text-muted small mb-4 mb-lg-0">&copy; TravellingDollar 2019 - @DateTime.Now.Year.ToString(). All Rights Reserved.</p>
-                    </div>
-                    <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+    @RenderBody()
+    <hr />
 
-                        <ul class="list-inline mb-2">
-                            <li class="list-inline-item">
-                                <a href="mailto:info@travellingdollar.com">info@travellingdollar.com</a>
-                            </li>
-                            <li class="list-inline-item">&sdot;</li>
+    <!-- Footer -->
+    <footer class="footer bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+                    <h3 class="text-primary"><a href="~/Home/Index">TravellingDollar.com</a></h3>
+                    <p class="text-muted small mb-4 mb-lg-0">&copy; TravellingDollar 2019 - @DateTime.Now.Year.ToString(). All Rights Reserved.</p>
+                </div>
+                <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
 
-                            <li class="list-inline-item">
-                                <a href="~/Home/About">About</a>
-                            </li>
-                            <li class="list-inline-item">&sdot;</li> 
-                            <li class="list-inline-item">
-                                <a href="~/Home/Privacy">Privacy Policy</a>
-                            </li>
-                        </ul>
-                    </div>
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item">
+                            <a href="mailto:info@travellingdollar.com">info@travellingdollar.com</a>
+                        </li>
+                        <li class="list-inline-item">&sdot;</li>
+
+                        <li class="list-inline-item">
+                            <a href="~/Home/About">About</a>
+                        </li>
+                        <li class="list-inline-item">&sdot;</li>
+                        <li class="list-inline-item">
+                            <a href="~/Home/Privacy">Privacy Policy</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </footer>
-   
+        </div>
+    </footer>
+
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+
     @RenderSection("scripts", required: false)
+
+    <script type="text/javascript">
+        var infolinks_pid = 3293513;
+        var infolinks_wsid = 0;
+    </script>
+    <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
 </body>
 </html>

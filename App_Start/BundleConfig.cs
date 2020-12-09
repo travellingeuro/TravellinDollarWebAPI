@@ -26,6 +26,13 @@ namespace TravellinDollarWebAPI
                       "~/lib/startbootstrap-landing-page/vendor/fontawesome-free/css/all.css",
                       "~/lib/startbootstrap-landing-page/vendor/simple-line-icons/css/simple-line-icons.css"));
 
+            bundles.Add(new StyleBundle("~/Content/fonts").Include(
+                       "~/lib/startbootstrap-landing-page/vendor/simple-line-icons/css/simple-line-icons.min.css", new CssRewriteUrlTransform()));
+
+            bundles.Add(new StyleBundle("~/Content/fontsawe").Include(
+                       "~/lib/startbootstrap-landing-page/vendor/fontawesome-free/css/all.min.css", new CssRewriteUrlTransform()));
+
+
         }
     }
 }
