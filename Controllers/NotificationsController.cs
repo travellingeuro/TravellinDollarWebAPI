@@ -18,7 +18,7 @@ namespace TravellinDollarWebAPI.Controllers
 
         public NotificationsController()
         {
-            string connectionString = "server=travellingeurodb.mysql.database.azure.com;port=3306;user=travellingeuro@travellingeurodb;password=Gustavo98;database=tdwebapi;sslmode=preferred";
+            string connectionString = "server=travellingeurodb.mysql.database.azure.com;port=3306;user=travellingeuro@travellingeurodb;password=*******;database=tdwebapi;sslmode=preferred";
             dbContext = DbContextFactory.Create(connectionString);
         }
 

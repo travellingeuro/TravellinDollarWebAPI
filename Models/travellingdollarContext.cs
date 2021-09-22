@@ -23,7 +23,7 @@ namespace TravellinDollarWebAPI.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseMySql("server=travellingeurodb.mysql.database.azure.com;port=3306;user=travellingeuro@travellingeurodb;password=Gustavo98;database=tdwebapi;sslmode=preferred");
+                optionsBuilder.UseMySql("server=travellingeurodb.mysql.database.azure.com;port=3306;user=travellingeuro@travellingeurodb;password=*******;database=tdwebapi;sslmode=preferred");
             }
         }
 
